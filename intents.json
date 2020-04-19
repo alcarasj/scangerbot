@@ -1,0 +1,29 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+         "responses": ["What's the story?", "What's the craic?", "Howye?", "Story bud?", "Alri.", "Any yokes?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See ya now!", "Have a good one!", "Bye!", "Slán!"],
+         "context": [""]
+        },
+        {
+         "tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["No worries!", "No worries at all!", "No bother!", "You're welcome!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Wha?", "Say wha?"],
+         "context": [""]
+        },
+        {"tag": "insult",
+         "patterns": ["Fuck off", "Fuck you", "You're shit", ""],
+         "responses": ["Yer ma.", "Fuck off ye junkie cunt.", "Piss off.", "State of ye."],
+         "context": [""]
+        }
+   ]
+}
